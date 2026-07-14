@@ -1,4 +1,5 @@
 # 🏋️ GymSphere - A Full-Stack Web Platform for Managing Gym Activities
+🚧 Project Status: Under Development
 
 GymSphere is a modern and responsive web Platform designed to simplify gym operations and provide an efficient platform for managing members, memberships, and related activities.
 
