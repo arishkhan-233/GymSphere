@@ -1,15 +1,20 @@
-# 🏋️ GymSphere - Gym Management System
+# 🏋️ GymSphere - A Full-Stack Web Platform for Managing Gym Activities
 
-GymSphere is a modern Gym Management System designed to simplify gym operations by managing members, memberships, and user interactions through an intuitive web interface.
+GymSphere is a modern and responsive web platform designed to simplify gym operations and provide an efficient platform for managing members, memberships, and related activities.
 
 ## 🚀 Features
 
 - 🔐 User Authentication (Login & Signup)
 - 👤 Member Management
+- ➕ Add and manage members
+- 📊 Dashboard with important statistics
+- 👥 Joined Members tracking
+- 📅 Monthly Joined Members overview
+- ⏳ Expiring Memberships within 3 days
+- ❌ Expired Members tracking
+- ⚠️ Inactive Members management
 - 🏷️ Membership Management
-- 📊 Dashboard for gym operations
-- 🔎 Member details and tracking
-- 📱 Responsive user interface
+- 📱 Responsive User Interface
 - 🎨 Modern UI with Tailwind CSS
 
 ## 🛠️ Tech Stack
@@ -34,9 +39,12 @@ GymSphere
     ├── src
     │   ├── components
     │   ├── pages
-    │   └── App.js
+    │   ├── App.js
+    │   └── index.js
+    │
     ├── public
-    └── package.json
+    ├── package.json
+    └── tailwind.config.js
 ```
 
 ## ⚙️ Installation & Setup
@@ -47,7 +55,7 @@ Clone the repository:
 git clone https://github.com/arishkhan-233/GymSphere.git
 ```
 
-Go to frontend folder:
+Navigate to project folder:
 
 ```bash
 cd gms-frontend
@@ -59,7 +67,7 @@ Install dependencies:
 npm install
 ```
 
-Run the project:
+Start the application:
 
 ```bash
 npm start
@@ -73,10 +81,10 @@ http://localhost:3000
 
 ## 🔮 Future Improvements
 
-- Backend integration with Node.js & Express
-- MongoDB database integration
-- Admin dashboard
-- Payment management
+- Backend API integration
+- Database connectivity
+- Advanced dashboard features
+- Role-based access control
 - Deployment
 
 ## 👨‍💻 Author
