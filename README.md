@@ -1,6 +1,7 @@
-# 🏋️ GymSphere - Gym Management System
+# 🏋️ GymSphere - A Full-Stack Web Platform for Managing Gym Activities
 
-GymSphere is a Gym Management System designed to simplify gym operations by managing members, memberships, and gym-related activities through an intuitive web interface.
+GymSphere is a modern and responsive web Platform designed to simplify gym operations and provide an efficient platform for managing members, memberships, and related activities.
+
 
 ## 🚀 Features
 
