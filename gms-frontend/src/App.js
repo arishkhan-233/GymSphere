@@ -7,6 +7,10 @@ import Members from './pages/Members/Members';
 import Slidebar from './components/Slidebar/Slidebar';
 import{useState,useEffect} from "react";
 import GeneralUser from './pages/GeneralUser/GeneralUser';
+import MemberDetail from "./pages/MemberDetail/MemberDetail";
+
+
+
 
 function App() {
   const navigate = useNavigate();
@@ -31,6 +35,8 @@ function App() {
        <Route path="/dashboard" element={<Dashboard/>}/>
        <Route path="/Members" element={<Members/>}/>
        <Route path="/specific/:page" element={<GeneralUser/>}/>
+       <Route path="/member/:id" element={<MemberDetail/>}/>
+      
       </Routes>
    
    
